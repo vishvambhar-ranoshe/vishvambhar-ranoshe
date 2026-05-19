@@ -1,19 +1,17 @@
 <div align="center">
 
 ```
- ██╗   ██╗██╗███████╗██╗  ██╗██╗   ██╗ █████╗ ███╗   ███╗██████╗ ██╗  ██╗ █████╗ ██████╗
- ██║   ██║██║██╔════╝██║  ██║██║   ██║██╔══██╗████╗ ████║██╔══██╗██║  ██║██╔══██╗██╔══██╗
- ██║   ██║██║███████╗███████║██║   ██║███████║██╔████╔██║██████╔╝███████║███████║██████╔╝
- ╚██╗ ██╔╝██║╚════██║██╔══██║ ╚██╗██╔╝██╔══██║██║╚██╔╝██║██╔══██╗██╔══██║██╔══██║██╔══██╗
-  ╚████╔╝ ██║███████║██║  ██║  ╚███╔╝ ██║  ██║██║ ╚═╝ ██║██████╔╝██║  ██║██║  ██║██║  ██║
-   ╚═══╝  ╚═╝╚══════╝╚═╝  ╚═╝   ╚══╝  ╚═╝  ╚═╝╚═╝     ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
+__   _____ ___ _  ___   ___   __  __ ___ _  _   _   ___ 
+\ \ / /_ _/ __| || \ \ / /_\ |  \/  | _ ) || | /_\ | _ \
+ \ V / | |\__ \ __ |\ V / _ \| |\/| | _ \ __ |/ _ \|   /
+  \_/ |___|___/_||_| \_/_/ \_\_|  |_|___/_||_/_/ \_\_|_\
 ```
 
 ### `whoami`
 
 **Builder · CTF Player · Cybersecurity · Networking**
 
-*Securing the way systems communicate*
+*Securing the way systems communicate — one lab at a time.*
 
 <br/>
 
@@ -25,12 +23,15 @@
 
 ---
 
-```python
-class Vishvambhar:
-    role         = ["Cybersecurity Student", "CTF Player", "Builder"]
-    focus        = ["Network Security", "Threat Detection", "Defense Mechanisms"]
-    currently    = "Hacking labs · Building projects · Writing writeups"
-    ask_me_about = ["Networking", "Linux", "Python for security", "CTF tips"]
+```
+$ whoami
+> cybersecurity student · ctf player · builder
+
+$ cat interests.txt
+> network protocols · threat detection · defense mechanisms
+
+$ cat now.txt
+> hacking labs · building projects · writing writeups
 ```
 
 ---
