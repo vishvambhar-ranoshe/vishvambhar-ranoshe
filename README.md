@@ -74,6 +74,10 @@ $ cat now.txt
 ### 📊 Stats
 
 <div align="center">
+  <img src="./github-metrics.svg" width="100%"/>
+</div>
+
+<div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=vishvambhar-ranoshe&show_icons=true&theme=tokyonight&hide_border=true&hide_title=true&count_private=true&v=5" height="150"/>
   <img src="https://streak-stats.demolab.com/?user=vishvambhar-ranoshe&theme=tokyonight&hide_border=true&v=5" height="150"/>
 </div>
