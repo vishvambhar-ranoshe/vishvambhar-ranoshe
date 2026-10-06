@@ -73,9 +73,18 @@ $ cat now.txt
 ### 📊 Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vishvambhar-ranoshe&show_icons=true&theme=tokyonight&hide_border=true&hide_title=true" height="140"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vishvambhar-ranoshe&theme=tokyonight&hide_border=true" height="140"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=vishvambhar-ranoshe&show_icons=true&theme=tokyonight&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&cache_seconds=14400" height="140"/>
+  <img src="https://streak-stats.demolab.com/?user=vishvambhar-ranoshe&theme=tokyonight&hide_border=true" height="140"/>
 </div>
+
+<!-- Self-generated card (works even when public hosts fail).
+     Enable the workflow in .github/workflows/metrics.yml, run it once,
+     then uncomment the block below. -->
+<!--
+<div align="center">
+  <img src="./github-metrics.svg" />
+</div>
+-->
 
 ---
 
