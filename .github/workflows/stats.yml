@@ -1,0 +1,33 @@
+name: Stats card
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/stats.py"
+      - ".github/workflows/stats.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate card
+        run: python3 scripts/stats.py
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+      - name: Commit card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain stats-card.svg)" ]; then
+            git add stats-card.svg
+            git commit -m "Update stats card"
+            git push
+          fi
