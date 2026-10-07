@@ -3,7 +3,7 @@ import os, json, urllib.request, urllib.error, datetime as dt
 LOGIN = "vishvambhar-ranoshe"
 QUERY = """query($login:String!){user(login:$login){
  name
- repositories(ownerAffiliation:OWNER,isFork:false,first:100){nodes{stargazerCount}}
+ repositories(ownerAffiliations:OWNER,isFork:false,first:100){nodes{stargazerCount}}
  contributionsCollection{contributionCalendar{totalContributions weeks{contributionDays{date contributionCount}}}}}}"""
 
 req = urllib.request.Request(
