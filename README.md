@@ -74,11 +74,7 @@ $ cat now.txt
 ### 📊 Stats
 
 <div align="center">
-  <img src="./github-metrics.svg" width="100%"/>
-</div>
-
-
-<div align="center">
+  <img src="./stats-card.svg" width="720"/>
 </div>
 
 ---
