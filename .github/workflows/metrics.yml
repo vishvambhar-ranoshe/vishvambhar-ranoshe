@@ -33,7 +33,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: vishvambhar-ranoshe
           template: classic
-          base: ""
+          base: header
           config_timezone: Asia/Kolkata
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
