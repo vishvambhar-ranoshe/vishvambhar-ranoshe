@@ -1,4 +1,4 @@
-import os, json, urllib.request, datetime as dt
+import os, json, urllib.request, urllib.error, datetime as dt
 
 LOGIN = "vishvambhar-ranoshe"
 QUERY = """query($login:String!){user(login:$login){
@@ -12,7 +12,13 @@ req = urllib.request.Request(
     headers={"Authorization": "bearer " + os.environ["METRICS_TOKEN"],
              "Content-Type": "application/json", "User-Agent": "stats-card"},
 )
-data = json.load(urllib.request.urlopen(req))
+tok = os.environ.get("METRICS_TOKEN", "")
+if not tok.strip():
+    raise SystemExit("METRICS_TOKEN is empty or missing: check the secret name and value")
+try:
+    data = json.load(urllib.request.urlopen(req))
+except urllib.error.HTTPError as e:
+    raise SystemExit(f"GitHub API returned {e.code}: {e.read().decode()[:200]}")
 if "errors" in data:
     raise SystemExit(data["errors"])
 
