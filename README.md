@@ -77,6 +77,10 @@ $ cat now.txt
   <img src="./stats-card.svg" width="720"/>
 </div>
 
+<div align="center">
+  <img src="./activity-3d.svg" width="720"/>
+</div>
+
 ---
 
 <div align="center">
