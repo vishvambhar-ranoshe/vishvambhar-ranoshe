@@ -2,32 +2,41 @@ name: Stats card
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
-    paths:
-      - "scripts/stats.py"
-      - ".github/workflows/stats.yml"
 
 permissions:
   contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+      - name: Wait for GitHub to index commits
+        run: sleep 20
       - name: Generate card
         run: python3 scripts/stats.py
         env:
           METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+      - name: Generate 3D 10-day chart
+        run: python3 scripts/stats_3d.py
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
       - name: Commit card
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain stats-card.svg)" ]; then
-            git add stats-card.svg
+          if [ -n "$(git status --porcelain stats-card.svg activity-3d.svg)" ]; then
+            git add stats-card.svg activity-3d.svg
             git commit -m "Update stats card"
+            git pull --rebase origin main
             git push
           fi
