@@ -3,19 +3,22 @@ from datetime import datetime, timedelta, timezone
 
 user = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("GH_USER", "YOUR_GITHUB_USERNAME")
 token = os.environ.get("METRICS_TOKEN")
-today = datetime.now(timezone.utc).date()
+from zoneinfo import ZoneInfo
+TZ = os.environ.get("TZ_NAME", "Asia/Kolkata")
+today = datetime.now(ZoneInfo(TZ)).date()
 start = today - timedelta(days=9)
 
 def fetch():
     q = """query($u:String!,$f:DateTime!,$t:DateTime!){user(login:$u){contributionsCollection(from:$f,to:$t){
     contributionCalendar{weeks{contributionDays{date contributionCount}}}}}}"""
     body = json.dumps({"query": q, "variables": {
-        "u": user, "f": f"{start}T00:00:00Z", "t": f"{today}T23:59:59Z"}}).encode()
+        "u": user, "f": f"{start - timedelta(days=1)}T00:00:00Z", "t": f"{today + timedelta(days=1)}T23:59:59Z"}}).encode()
     req = urllib.request.Request("https://api.github.com/graphql", body,
         {"Authorization": f"bearer {token}", "Content-Type": "application/json"})
     data = json.load(urllib.request.urlopen(req))
     weeks = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
     days = {d["date"]: d["contributionCount"] for w in weeks for d in w["contributionDays"]}
+    print('API days:', dict(sorted(days.items())[-12:]))
     return [days.get(str(start + timedelta(days=i)), 0) for i in range(10)]
 
 if token:
