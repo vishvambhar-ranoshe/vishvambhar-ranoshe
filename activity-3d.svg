@@ -46,10 +46,10 @@
 <polygon points="666,127.53846153846153 680,120.53846153846153 680,163 666,170" fill="#6b9a45"/>
 <text x="655.0" y="114.53846153846153" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">5</text>
 <text x="655.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">09 Oct</text>
-<polygon points="700,166 714,159 750,159 736,166" fill="#3b4261"/>
-<rect x="700" y="166" width="36" height="4" fill="#292e42"/>
-<polygon points="736,166 750,159 750,163 736,170" fill="#1f2335"/>
-<text x="725.0" y="153" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">0</text>
+<polygon points="700,119.84615384615384 714,112.84615384615384 750,112.84615384615384 736,119.84615384615384" fill="#b4e07f"/>
+<rect x="700" y="119.84615384615384" width="36" height="50.15384615384615" fill="#9ece6a"/>
+<polygon points="736,119.84615384615384 750,112.84615384615384 750,163 736,170" fill="#6b9a45"/>
+<text x="725.0" y="106.84615384615384" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">6</text>
 <text x="725.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">10 Oct</text>
 <text x="804" y="210" text-anchor="end" font-size="9" fill="#414868">updated 10 Oct 2026</text>
 </svg>
