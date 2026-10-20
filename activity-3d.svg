@@ -46,10 +46,10 @@
 <polygon points="666,146.0 680,139.0 680,163 666,170" fill="#6b9a45"/>
 <text x="655.0" y="133.0" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">1</text>
 <text x="655.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">19 Oct</text>
-<polygon points="700,126.0 714,119.0 750,119.0 736,126.0" fill="#b4e07f"/>
-<rect x="700" y="126.0" width="36" height="44.0" fill="#9ece6a"/>
-<polygon points="736,126.0 750,119.0 750,163 736,170" fill="#6b9a45"/>
-<text x="725.0" y="113.0" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">2</text>
+<polygon points="700,106.0 714,99.0 750,99.0 736,106.0" fill="#b4e07f"/>
+<rect x="700" y="106.0" width="36" height="64.0" fill="#9ece6a"/>
+<polygon points="736,106.0 750,99.0 750,163 736,170" fill="#6b9a45"/>
+<text x="725.0" y="93.0" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">3</text>
 <text x="725.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">20 Oct</text>
 <text x="804" y="210" text-anchor="end" font-size="9" fill="#414868">updated 20 Oct 2026</text>
 </svg>
