@@ -1,55 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="220" viewBox="0 0 820 220" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">
 <rect width="820" height="220" rx="14" fill="#1a1b26"/>
 <text x="24" y="30" font-size="12" letter-spacing="1" fill="#565f89">LAST 10 DAYS · CONTRIBUTIONS</text>
-<polygon points="70,91.0 84,84.0 120,84.0 106,91.0" fill="#b4e07f"/>
-<rect x="70" y="91.0" width="36" height="79.0" fill="#9ece6a"/>
-<polygon points="106,91.0 120,84.0 120,163 106,170" fill="#6b9a45"/>
-<text x="95.0" y="78.0" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">3</text>
-<text x="95.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">13 Oct</text>
-<polygon points="140,116.0 154,109.0 190,109.0 176,116.0" fill="#b4e07f"/>
-<rect x="140" y="116.0" width="36" height="54.0" fill="#9ece6a"/>
-<polygon points="176,116.0 190,109.0 190,163 176,170" fill="#6b9a45"/>
-<text x="165.0" y="103.0" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">2</text>
-<text x="165.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">14 Oct</text>
-<polygon points="210,66.0 224,59.0 260,59.0 246,66.0" fill="#b4e07f"/>
-<rect x="210" y="66.0" width="36" height="104.0" fill="#9ece6a"/>
-<polygon points="246,66.0 260,59.0 260,163 246,170" fill="#6b9a45"/>
-<text x="235.0" y="53.0" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">4</text>
-<text x="235.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">15 Oct</text>
-<polygon points="280,141.0 294,134.0 330,134.0 316,141.0" fill="#b4e07f"/>
-<rect x="280" y="141.0" width="36" height="29.0" fill="#9ece6a"/>
-<polygon points="316,141.0 330,134.0 330,163 316,170" fill="#6b9a45"/>
-<text x="305.0" y="128.0" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">1</text>
-<text x="305.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">16 Oct</text>
-<polygon points="350,166 364,159 400,159 386,166" fill="#3b4261"/>
-<rect x="350" y="166" width="36" height="4" fill="#292e42"/>
-<polygon points="386,166 400,159 400,163 386,170" fill="#1f2335"/>
-<text x="375.0" y="153" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">0</text>
-<text x="375.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">17 Oct</text>
+<polygon points="70,116.0 84,109.0 120,109.0 106,116.0" fill="#b4e07f"/>
+<rect x="70" y="116.0" width="36" height="54.0" fill="#9ece6a"/>
+<polygon points="106,116.0 120,109.0 120,163 106,170" fill="#6b9a45"/>
+<text x="95.0" y="103.0" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">2</text>
+<text x="95.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">14 Oct</text>
+<polygon points="140,66.0 154,59.0 190,59.0 176,66.0" fill="#b4e07f"/>
+<rect x="140" y="66.0" width="36" height="104.0" fill="#9ece6a"/>
+<polygon points="176,66.0 190,59.0 190,163 176,170" fill="#6b9a45"/>
+<text x="165.0" y="53.0" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">4</text>
+<text x="165.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">15 Oct</text>
+<polygon points="210,141.0 224,134.0 260,134.0 246,141.0" fill="#b4e07f"/>
+<rect x="210" y="141.0" width="36" height="29.0" fill="#9ece6a"/>
+<polygon points="246,141.0 260,134.0 260,163 246,170" fill="#6b9a45"/>
+<text x="235.0" y="128.0" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">1</text>
+<text x="235.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">16 Oct</text>
+<polygon points="280,166 294,159 330,159 316,166" fill="#3b4261"/>
+<rect x="280" y="166" width="36" height="4" fill="#292e42"/>
+<polygon points="316,166 330,159 330,163 316,170" fill="#1f2335"/>
+<text x="305.0" y="153" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">0</text>
+<text x="305.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">17 Oct</text>
+<polygon points="350,141.0 364,134.0 400,134.0 386,141.0" fill="#b4e07f"/>
+<rect x="350" y="141.0" width="36" height="29.0" fill="#9ece6a"/>
+<polygon points="386,141.0 400,134.0 400,163 386,170" fill="#6b9a45"/>
+<text x="375.0" y="128.0" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">1</text>
+<text x="375.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">18 Oct</text>
 <polygon points="420,141.0 434,134.0 470,134.0 456,141.0" fill="#b4e07f"/>
 <rect x="420" y="141.0" width="36" height="29.0" fill="#9ece6a"/>
 <polygon points="456,141.0 470,134.0 470,163 456,170" fill="#6b9a45"/>
 <text x="445.0" y="128.0" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">1</text>
-<text x="445.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">18 Oct</text>
-<polygon points="490,141.0 504,134.0 540,134.0 526,141.0" fill="#b4e07f"/>
-<rect x="490" y="141.0" width="36" height="29.0" fill="#9ece6a"/>
-<polygon points="526,141.0 540,134.0 540,163 526,170" fill="#6b9a45"/>
-<text x="515.0" y="128.0" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">1</text>
-<text x="515.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">19 Oct</text>
-<polygon points="560,91.0 574,84.0 610,84.0 596,91.0" fill="#b4e07f"/>
-<rect x="560" y="91.0" width="36" height="79.0" fill="#9ece6a"/>
-<polygon points="596,91.0 610,84.0 610,163 596,170" fill="#6b9a45"/>
-<text x="585.0" y="78.0" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">3</text>
-<text x="585.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">20 Oct</text>
-<polygon points="630,166 644,159 680,159 666,166" fill="#3b4261"/>
-<rect x="630" y="166" width="36" height="4" fill="#292e42"/>
-<polygon points="666,166 680,159 680,163 666,170" fill="#1f2335"/>
-<text x="655.0" y="153" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">0</text>
-<text x="655.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">21 Oct</text>
-<polygon points="700,141.0 714,134.0 750,134.0 736,141.0" fill="#b4e07f"/>
-<rect x="700" y="141.0" width="36" height="29.0" fill="#9ece6a"/>
-<polygon points="736,141.0 750,134.0 750,163 736,170" fill="#6b9a45"/>
-<text x="725.0" y="128.0" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">1</text>
-<text x="725.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">22 Oct</text>
-<text x="804" y="210" text-anchor="end" font-size="9" fill="#414868">updated 22 Oct 2026</text>
+<text x="445.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">19 Oct</text>
+<polygon points="490,91.0 504,84.0 540,84.0 526,91.0" fill="#b4e07f"/>
+<rect x="490" y="91.0" width="36" height="79.0" fill="#9ece6a"/>
+<polygon points="526,91.0 540,84.0 540,163 526,170" fill="#6b9a45"/>
+<text x="515.0" y="78.0" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">3</text>
+<text x="515.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">20 Oct</text>
+<polygon points="560,166 574,159 610,159 596,166" fill="#3b4261"/>
+<rect x="560" y="166" width="36" height="4" fill="#292e42"/>
+<polygon points="596,166 610,159 610,163 596,170" fill="#1f2335"/>
+<text x="585.0" y="153" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">0</text>
+<text x="585.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">21 Oct</text>
+<polygon points="630,141.0 644,134.0 680,134.0 666,141.0" fill="#b4e07f"/>
+<rect x="630" y="141.0" width="36" height="29.0" fill="#9ece6a"/>
+<polygon points="666,141.0 680,134.0 680,163 666,170" fill="#6b9a45"/>
+<text x="655.0" y="128.0" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">1</text>
+<text x="655.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">22 Oct</text>
+<polygon points="700,166 714,159 750,159 736,166" fill="#3b4261"/>
+<rect x="700" y="166" width="36" height="4" fill="#292e42"/>
+<polygon points="736,166 750,159 750,163 736,170" fill="#1f2335"/>
+<text x="725.0" y="153" text-anchor="middle" font-size="12" font-weight="700" fill="#7aa2f7">0</text>
+<text x="725.0" y="190" text-anchor="middle" font-size="10" fill="#565f89">23 Oct</text>
+<text x="804" y="210" text-anchor="end" font-size="9" fill="#414868">updated 23 Oct 2026</text>
 </svg>
